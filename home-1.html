@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.manifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Azam Malik</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+      <img src="img/general/loader.svg" alt="preloader image" class="preloader__img">
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="home-1.html">
+              <img class="header__logo__light js-lazy" src="#" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="home-1.html">
+              <img class="header__logo__dark js-lazy" src="#" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="home-1.html">
+                          Home
+                        </a>
+                      </li>
+
+                      
+
+                      <li>
+                        <a data-barba href="about-1.html">About me</a>
+
+                        
+                      </li>
+
+                      
+
+                      
+
+                      <li>
+                        <a href="https://medium.com/@azammalik24">Blog</a>
+
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Location
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          Sydney, Australia
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Explore
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="https://twitter.com/halalbrosydney">Thoughts</a>
+                        <a href="https://medium.com/@azammalik24">Writing</a>
+                        <a href="https://www.youtube.com/channel/UCcXGrjbr5-RjVFEZWjAGkqg/featured">Videos</a>
+                        <a href="https://www.linkedin.com/in/malikazam/">Work</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a> DM on ig @_azammalik</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section data-speed="1200" data-autoplay-delay="2900" class="sliderMain -type-3 js-sliderMain-type-3 sm:layout-mt-headerBar">
+        <!-- container start -->
+        <div class="container-fluid h-full px-0 sm:px-20">
+          <!-- row start -->
+          <div class="row sm:justify-content-center h-full">
+            <div class="col-xl-3 offset-xl-2 col-lg-4 offset-lg-1 col-md-5 offset-md-1 col-sm-9">
+              <div class="slider__content__wrapper sm:text-center h-full z-3">
+
+                <div class="slider__content  is-active  js-slider-content">
+                  <div data-split="lines">
+                    <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+                      desi muslim
+                    </p>
+                  </div>
+                  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+                    <h1 class="slider__title fw-700 leading-xs js-title">
+                      halalbrosydney
+                    </h1>
+                  </div>
+                  <div class="slider__button overflow-hidden mt-32">
+                    <div class="js-button py-4">
+                      <a href="about-1.html" class="button -md -black text-white">
+                        About Me
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__content  js-slider-content">
+                  <div data-split="lines">
+                    <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+                      writing
+                    </p>
+                  </div>
+                  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+                    <h1 class="slider__title fw-700 leading-xs js-title">
+                      My train of thought
+                    </h1>
+                  </div>
+                  <div class="slider__button overflow-hidden mt-32">
+                    <div class="js-button py-4">
+                      <a href="https://medium.com/@azammalik24" class="button -md -black text-white">
+                        Follow
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__content  js-slider-content">
+                  <div data-split="lines">
+                    <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+                      video editing
+                    </p>
+                  </div>
+                  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+                    <h1 class="slider__title fw-700 leading-xs js-title">
+                      VCR footage
+                    </h1>
+                  </div>
+                  <div class="slider__button overflow-hidden mt-32">
+                    <div class="js-button py-4">
+                      <a href="https://www.youtube.com/channel/UCcXGrjbr5-RjVFEZWjAGkqg/featured" class="button -md -black text-white">
+                        Press Play
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="slider__content  js-slider-content">
+                  <div data-split="lines">
+                    <p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+                      teaching
+                    </p>
+                  </div>
+                  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+                    <h1 class="slider__title fw-700 leading-xs js-title">
+                      Ethical Education
+                    </h1>
+                  </div>
+                  <div class="slider__button overflow-hidden mt-32">
+                    <div class="js-button py-4">
+                      <a href="https://www.ethicaleducation.com.au/" class="button -md -black text-white">
+                        get in touch
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col layout-pr-headerBar lg:pr-0 col-lg-7 col-md-6 swiper-col">
+              <div class="swiper-container h-100vh">
+                <div class="swiper-wrapper z-2">
+
+                  <div class="swiper-slide overflow-hidden">
+                    <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
+                      <div data-parallax-target class="bg-image swiper-lazy js-image" data-background="img/headers/home-1-slider/1.jpg"></div>
+                    </div>
+
+                    <div class="slider__img__cover js-image-cover"></div>
+
+                    <div class="slider__img__bg bg-dark-1"></div>
+                  </div>
+
+                  <div class="swiper-slide overflow-hidden">
+                    <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
+                      <div data-parallax-target class="bg-image swiper-lazy js-image" data-background="img/headers/home-1-slider/2.jpg"></div>
+                    </div>
+
+                    <div class="slider__img__bg bg-dark-1"></div>
+                  </div>
+
+                  <div class="swiper-slide overflow-hidden">
+                    <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
+                      <div data-parallax-target class="bg-image swiper-lazy js-image" data-background="img/headers/home-1-slider/3.jpg"></div>
+                    </div>
+
+                    <div class="slider__img__bg bg-dark-1"></div>
+                  </div>
+
+                  <div class="swiper-slide overflow-hidden">
+                    <div class="slider__img" data-swiper-parallax="150" data-parallax="0.7" data-swiper-parallax-opacity="0">
+                      <div data-parallax-target class="bg-image swiper-lazy js-image" data-background="img/headers/home-1-slider/4.jpg"></div>
+                    </div>
+
+                    <div class="slider__img__bg bg-dark-1"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <!-- slider nav start -->
+          <div class="slider__navs js-slider-nav js-ui">
+            <div class="navButton">
+              <button type="button" class="navButton__item button -outline-black text-black js-prev">
+                <i class="icon" data-feather="arrow-left"></i>
+              </button>
+              <button type="button" class="navButton__item button -outline-black text-black mt-12 js-next">
+                <i class="icon" data-feather="arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <!-- slider nav end -->
+        </div>
+        <!-- container end -->
+
+        <!-- ui-element start -->
+        <div class="ui-element -bottom-left sm:d-none js-ui">
+          <button type="button" class="ui-element__scroll text-black js-ui-scroll-button">
+            find out more
+            <i class="icon" data-feather="arrow-down"></i>
+          </button>
+        </div>
+        <!-- ui-element end -->
+      </section>
+      <!-- section end -->
+
+
+      
+      
+
+
+      
+
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-5 col-lg-8 col-md-10">
+              <div class="sectionHeading -lg">
+                <p class="sectionHeading__subtitle">
+                  What I Do for work
+                </p>
+                <h2 class="sectionHeading__title">
+                  Consulting
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+
+          <!-- row start -->
+          <div data-anim-wrap class="row x-gap-60 y-gap-48 layout-pt-md">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="serviceCard">
+                <div class="serviceCard__content">
+                  <div class="d-flex align-items-center ml-minus-4">
+                    <div data-anim-child="img-right cover-dark-2" class="px-20 py-20 bg-white shadow-light rounded-full">
+                      <i class="size-md str-width-md text-accent" data-feather="edit"></i>
+                    </div>
+                  </div>
+
+                  <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                    Analytics
+                  </h3>
+
+                  <p class="serviceCard__text mt-16">
+                    Ability to synthesise insights from complex data sets for business leaders to digest and take action upon.
+                  </p>
+
+                  <div class="text-black mt-24">
+                    <p class="">Data analysis</p>
+                    <p class="mt-8">IBM Cognos</p>
+                    <p class="mt-8">Google analytics</p>
+                    <p class="mt-8">VBA</p>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="serviceCard">
+                <div class="serviceCard__content">
+                  <div class="d-flex align-items-center ml-minus-4">
+                    <div data-anim-child="img-right cover-dark-2" class="px-20 py-20 bg-white shadow-light rounded-full">
+                      <i class="size-md str-width-md text-accent" data-feather="sliders"></i>
+                    </div>
+                  </div>
+
+                  <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                    Visualisations
+                  </h3>
+
+                  <p class="serviceCard__text mt-16">
+                    Experience in designing tailored dashboards for diverse audiences ranging from C-suite executives to middle management. 
+                  </p>
+
+                  <div class="text-black mt-24">
+                    <p class="">PowerBI</p>
+                    <p class="mt-8">Think-cell</p>
+                    <p class="mt-8">Microsoft Visio</p>
+                    <p class="mt-8">Presentation slides</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="serviceCard">
+                <div class="serviceCard__content">
+                  <div class="d-flex align-items-center ml-minus-4">
+                    <div data-anim-child="img-right cover-dark-2" class="px-20 py-20 bg-white shadow-light rounded-full">
+                      <i class="size-md str-width-md text-accent" data-feather="feather"></i>
+                    </div>
+                  </div>
+
+                  <h3 class="serviceCard__title text-2xl fw-500 tacking-none mt-32">
+                    Agile
+                  </h3>
+
+                  <p class="serviceCard__text mt-16">
+                    Fluent in agile frameworks to deliver high-impact work whilst managing offshore teams and delivery centres.
+                  </p>
+
+                  <div class="text-black mt-24">
+                    <p class="">Jira</p>
+                    <p class="mt-8">Confluence</p>
+                    <p class="mt-8">Microsoft Planner</p>
+                    <p class="mt-8">Workshop facilitation</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+
+          <!-- row start -->
+          <div class="row align-items-end justify-content-between">
+            <div class="col-xl-5 col-md-7">
+              <div class="sectionHeading -md">
+                <p class="sectionHeading__subtitle">
+                  portfolio
+                </p>
+                <h2 class="sectionHeading__title">
+                  I've dabbled in a range of sectors
+                </h2>
+              </div>
+            </div>
+
+            <div class="col-md-auto col-sm-12 sm:mt-24">
+              <a href="https://www.linkedin.com/in/malikazam/" class="button -md -black text-white">
+                My Experience
+              </a>
+            </div>
+          </div>
+          <!-- row end -->
+
+
+          <!-- row start -->
+          <div class="row y-gap-32 layout-pt-md">
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim="slide-up delay-1" class="clientsItem -hover ratio ratio-3:2 border-dark rounded-4 py-4">
+                <div class="clientsItem__img">
+                  <img class="col-7" src="img/clients/dark/1.png" alt="Client">
+                </div>
+
+                <div class="clientsItem__content">
+                  <h5 class="clientsItem__title text-xl text-white">
+                    Tech
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim="slide-up delay-1" class="clientsItem -hover ratio ratio-3:2 border-dark rounded-4 py-4">
+                <div class="clientsItem__img">
+                  <img class="col-7" src="img/clients/dark/2.png" alt="Client">
+                </div>
+
+                <div class="clientsItem__content">
+                  <h5 class="clientsItem__title text-xl text-white">
+                    Finance
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim="slide-up delay-1" class="clientsItem -hover ratio ratio-3:2 border-dark rounded-4 py-4">
+                <div class="clientsItem__img">
+                  <img class="col-7" src="img/clients/dark/3.png" alt="Client">
+                </div>
+
+                <div class="clientsItem__content">
+                  <h5 class="clientsItem__title text-xl text-white">
+                    Health
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div data-anim="slide-up delay-1" class="clientsItem -hover ratio ratio-3:2 border-dark rounded-4 py-4">
+                <div class="clientsItem__img">
+                  <img class="col-7" src="img/clients/dark/4.png" alt="Client">
+                </div>
+
+                <div class="clientsItem__content">
+                  <h5 class="clientsItem__title text-xl text-white">
+                    Banking
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+          <!-- row end -->
+
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      
+
+
+      
+
+
+      <!-- footer start -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="home-1.html" class="footer__logo text-white">
+                  azam malik.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  archivesbyazam
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p>25-year-old unarchiving his story</p>
+                  <p class="mt-8">Sydney, Australia</p>
+                  <p class="mt-8">Stand With Kashmir</p>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Explore
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="https://medium.com/@azammalik24" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">About Me</a></div>
+                  
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Socials
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" href="https://twitter.com/halalbrosydney">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="https://medium.com/@azammalik24">
+                    <i class="fa fa-medium"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="https://www.youtube.com/channel/UCcXGrjbr5-RjVFEZWjAGkqg/featured">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="https://www.linkedin.com/in/malikazam/">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    @ 2022, Azam. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
